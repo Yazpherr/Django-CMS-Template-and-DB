@@ -37,6 +37,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_interface',
+    'colorfield',  # Este es requerido para manejar los colores
+    
     "djangocms_admin_style",
     "django.contrib.admin",
     "django.contrib.auth",
